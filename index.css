@@ -1,0 +1,139 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.header{
+    width: 100%;
+    background-color: #f5f5f5;
+    padding: 0px 50px;
+}
+
+.header_container{
+    width: 100%;
+    height: 80px;
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo{
+    width: 10%;
+    height: 80px;
+    /* background-color: yellow; */
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search_ops{
+    width: 50%;
+    height: 80px;
+    /* background-color: lightgreen; */
+    padding: 0px 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 2%;
+
+}
+
+.inp{
+    width: 35%;
+    height: 40px;
+    font-size: 17px;
+    border-radius: 10px;
+    border: 1px solid lightgrey;
+    text-indent: 10px;
+    outline: none;
+    transition: .4s;
+}
+
+.inp:focus{
+    box-shadow: 0 0 8px lightblue;
+}
+
+.btn{
+    padding: 12px 30px;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: 10px;
+    background-color: #1c83dc;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: .4s;
+}
+
+.btn:hover{
+    background-color: #015294;
+}
+
+
+/* Css for News section */
+
+.news{
+    width: 100%;
+    padding: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 2%;
+    row-gap: 25px;
+    /* background-color: lightgrey; */
+}
+
+.news_card{
+    width: 49%;
+    /* background-color: red; */
+    display: flex;
+    box-shadow: 0 0 5px lightgray;
+    border-radius: 10px;
+    overflow: hidden;
+    padding: 20px;
+}
+
+.news_img{
+    width: 40%;
+    height:300px;
+    /* background-color: yellow; */
+    overflow: hidden;
+}
+
+.news_img > img {
+    height : 100%;
+}
+
+.news_details{
+    width: 60%;
+    /* background-color: orange; */
+    padding: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+    align-items: flex-start;
+}
+
+.author{
+    color: gray;
+    font-style: italic;
+}
+
+.content{
+    color: #464646;
+}
+
+.footer{
+    width: 100%;
+    height: 40px;
+    background-color:rgb(44, 44, 44) ;
+    color: rgb(255, 116, 213);
+    font-weight: bolder;
+    font-size: larger;
+    text-align: center;
+      
+}
