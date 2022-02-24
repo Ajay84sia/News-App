@@ -5,7 +5,7 @@ function getNews(country,category)
     document.getElementById("news").innerHTML="";
 
 
-    fetch("https://newsapi.org/v2/top-headlines?country="+country+"&category="+category+"&apiKey=5e33e7cc4f3e46cbaea255703da678f6")
+    fetch("http://newsapi.org/v2/top-headlines?country="+country+"&category="+category+"&apiKey=5e33e7cc4f3e46cbaea255703da678f6")
     .then((response)=>{
         return response.json();
     })
